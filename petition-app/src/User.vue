@@ -174,6 +174,7 @@
           </div>
           <div id="petitions" class="collapse" data-parent="#authored">
             <div class="card-body">
+              <div class="row justify-content-center">
                 <table v-if="petitions">
                   <tr>
                     <th></th>
@@ -190,6 +191,7 @@
                 </table>
               <div v-else>You haven't created any petitions!</div>
               </div>
+            </div>
             </div>
           </div>
         </div>

@@ -173,7 +173,7 @@
                 <router-link :to="{ name: 'user'}"><img :src=authorImage @error="imageUrlAlt" style="margin: 8px" class="img-thumbnail img-fluid" height="50" width="75"></router-link>
               </div>
               <div v-else>
-                <img :src="authorImage" style="margin: 8px" class="img-fluid rounded" height="50" width="75">
+                <img :src="authorImage" @error="imageUrlAlt" style="margin: 8px" class="img-fluid rounded" height="50" width="75">
               </div>
               {{ petition.authorName }}<br>
               {{ locationString }}</li>
@@ -198,6 +198,7 @@
             </div>
             <div id="signatures" class="collapse" data-parent="#signatories">
               <div class="card-body">
+                <div class="row justify-content-center">
                 <table>
                   <thead>
                   <tr>
@@ -218,6 +219,7 @@
                   </tr>
                   </tbody>
                 </table>
+              </div>
               </div>
             </div>
           </div>

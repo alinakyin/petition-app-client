@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d2956a3-5a15-4e99-af16-e85a361ecd35" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petition-app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/petition-app/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petition-app/src/Petition.vue" beforeDir="false" afterPath="$PROJECT_DIR$/petition-app/src/Petition.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petition-app/src/User.vue" beforeDir="false" afterPath="$PROJECT_DIR$/petition-app/src/User.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../assignment2-server/config/express.js" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2-server/config/express.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +57,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590189234988</updated>
-      <workItem from="1590189252210" duration="6980000" />
+      <workItem from="1590189252210" duration="7750000" />
+      <workItem from="1590200969779" duration="6466000" />
     </task>
     <servers />
   </component>
@@ -77,25 +82,25 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="538" y="267" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1590190050038" />
-    <state width="1345" height="2" key="GridCell.Tab.0.bottom" timestamp="1590198332030">
+    <state width="672" height="2" key="GridCell.Tab.0.bottom" timestamp="1590201710913">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="2" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590198332030" />
-    <state width="1345" height="2" key="GridCell.Tab.0.center" timestamp="1590198332030">
+    <state width="672" height="2" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590201710913" />
+    <state width="672" height="2" key="GridCell.Tab.0.center" timestamp="1590201710913">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="2" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1590198332030" />
-    <state width="1345" height="2" key="GridCell.Tab.0.left" timestamp="1590198332030">
+    <state width="672" height="2" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1590201710913" />
+    <state width="672" height="2" key="GridCell.Tab.0.left" timestamp="1590201710912">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="2" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1590198332030" />
-    <state width="1345" height="2" key="GridCell.Tab.0.right" timestamp="1590198332030">
+    <state width="672" height="2" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1590201710912" />
+    <state width="672" height="2" key="GridCell.Tab.0.right" timestamp="1590201710913">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="2" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1590198332030" />
-    <state x="275" y="104" key="Vcs.Push.Dialog.v2" timestamp="1590198441129">
+    <state width="672" height="2" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1590201710913" />
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2" timestamp="1590210259169">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1590198441129" />
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1590210259169" />
   </component>
 </project>
