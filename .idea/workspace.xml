@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d2956a3-5a15-4e99-af16-e85a361ecd35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petition-app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/petition-app/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petition-app/src/Petitions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/petition-app/src/Petitions.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../assignment2-server/config/express.js" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2-server/config/express.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +20,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aph78" />
@@ -56,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590189234988</updated>
-      <workItem from="1590189252210" duration="6708000" />
+      <workItem from="1590189252210" duration="6980000" />
     </task>
     <servers />
   </component>
@@ -64,6 +61,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="30" key="#Notifications" timestamp="1590198326185">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="30" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1590198326185" />
     <state x="137" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590193862931">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -76,21 +77,25 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="538" y="267" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1590190050038" />
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1590194205983">
+    <state width="1345" height="2" key="GridCell.Tab.0.bottom" timestamp="1590198332030">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590194205983" />
-    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1590194205983">
+    <state width="1345" height="2" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590198332030" />
+    <state width="1345" height="2" key="GridCell.Tab.0.center" timestamp="1590198332030">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1590194205983" />
-    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1590194205983">
+    <state width="1345" height="2" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1590198332030" />
+    <state width="1345" height="2" key="GridCell.Tab.0.left" timestamp="1590198332030">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1590194205983" />
-    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1590194205983">
+    <state width="1345" height="2" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1590198332030" />
+    <state width="1345" height="2" key="GridCell.Tab.0.right" timestamp="1590198332030">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1590194205983" />
+    <state width="1345" height="2" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1590198332030" />
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2" timestamp="1590198312648">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1590198312648" />
   </component>
 </project>
