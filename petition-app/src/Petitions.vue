@@ -44,7 +44,16 @@
           </div>
         </div>
       </div>
-      <h2 class="text-center" style="margin-bottom: 10px;margin-top: 10px; margin-left: 9%">SENG365 Petitions</h2>
+
+      <div class="form-inline">
+        <div style="float: left; margin-left: 50px; margin-top: 10px">
+          <form id="createPetition" v-on:submit="$router.push({ name: 'create'})">
+            <button type="submit" class="btn btn-primary btn-lg">Create a petition</button>
+          </form>
+        </div>
+
+        <h2 class="text-center" style="margin-bottom: 10px;margin-top: 10px; margin-left:24%">SENG365 Petitions</h2>
+      </div>
     </div>
 
     <div v-if="!loggedIn">
@@ -56,10 +65,41 @@
           <button type="submit" class="btn btn-primary" style="margin-left: 7px">Log in</button>
         </form>
       </div>
-      <h2 class="text-center" style="margin-bottom: 10px;margin-top: 10px; margin-left: 11%">SENG365 Petitions</h2>
+
+      <div class="form-inline">
+        <div style="float: left; margin-left: 50px; margin-top: 10px">
+          <div id="noCreate">
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#noCreateModal">Create a petition</button>
+
+            <div class="modal fade" id="noCreateModal" tabindex="-1" role="dialog"
+                 aria-labelledby="noCreateModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="noCreateModalLabel">Login required</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Log in or sign up now to create a petition!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" style="margin-left: auto; margin-right: auto" data-dismiss="modal">
+                      OK
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="text-center" style="margin-bottom: 10px;margin-top: 10px; margin-left: 26%">SENG365 Petitions</h2>
+      </div>
     </div>
 
-    <form v-on:submit.prevent="searchPetitions()" id="search" class="form-inline">
+    <form v-on:submit.prevent="searchPetitions()" id="search" class="form-inline" style="margin-top:12px">
       <input v-model="q" class="form-control col-4" style="margin-left: 50px; margin-right: 20px" type="search" placeholder="Search..." aria-label="Search">
 
       <button class="btn btn-outline-primary" style="margin-right: 30px" type="submit"><i class="fa fa-search"></i></button>
@@ -86,41 +126,7 @@
 
     </form>
 
-    <div v-if="loggedIn" style="float: left; margin-left: 50px; margin-top: 10px">
-      <form id="createPetition" v-on:submit="$router.push({ name: 'create'})">
-        <button type="submit" class="btn btn-primary btn-lg">Create a petition</button>
-      </form>
-    </div>
-
-    <div v-if="!loggedIn" style="float: left; margin-left: 50px; margin-top: 10px">
-      <div id="noCreate">
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#noCreateModal">Create a petition</button>
-
-        <div class="modal fade" id="noCreateModal" tabindex="-1" role="dialog"
-             aria-labelledby="noCreateModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="noCreateModalLabel">Login required</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                Log in or sign up now to create a petition!
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" style="margin-left: auto; margin-right: auto" data-dismiss="modal">
-                  OK
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="navigation" style="margin-right: 20%; margin-top: 20px">
+    <div id="navigation" style="margin-right: 20%; margin-top: 20px; margin-left: 18%">
       <div v-if="lastPage === 0">
       <nav id="navigation bar1">
         <ul class="pagination justify-content-center">

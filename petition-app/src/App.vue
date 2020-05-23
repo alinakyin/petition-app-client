@@ -15,5 +15,8 @@
   body {
     overflow-x: hidden;
   }
+  #app {
+    background-color: #ffffff;
+    }
 </style>
 

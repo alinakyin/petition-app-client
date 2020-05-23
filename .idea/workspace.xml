@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d2956a3-5a15-4e99-af16-e85a361ecd35" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petition-app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/petition-app/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petition-app/src/Petitions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/petition-app/src/Petitions.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../assignment2-server/config/express.js" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2-server/config/express.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../assignment2-server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bhqzflvgeBcO68x12g2cfy8fGJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,15 +26,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../assignment2-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aph78" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.server.js">
+    <configuration name="server.js (1)" type="NodeJSConfigurationType" temporary="true" path-to-node="C:/Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/../aph78">
+      <method v="2" />
+    </configuration>
     <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" path-to-node="C:/Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/../assignment2-server">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Node.js.server.js" />
+      <item itemvalue="Node.js.server.js (1)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.server.js" />
+        <item itemvalue="Node.js.server.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -44,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590189234988</updated>
-      <workItem from="1590189252210" duration="2155000" />
+      <workItem from="1590189252210" duration="6708000" />
     </task>
     <servers />
   </component>
@@ -52,17 +64,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590189402785">
+    <state x="137" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590193862931">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="137" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1590189402785" />
-    <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1590190012124">
+    <state x="137" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1590193862931" />
+    <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1590193836790">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1590190012124" />
+    <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1590193836790" />
     <state x="538" y="267" key="Github.ShareDialog" timestamp="1590190050038">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="538" y="267" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1590190050038" />
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1590194205983">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590194205983" />
+    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1590194205983">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1590194205983" />
+    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1590194205983">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1590194205983" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1590194205983">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1590194205983" />
   </component>
 </project>
