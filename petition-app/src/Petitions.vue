@@ -176,8 +176,7 @@
         <table class="table table-hover text-center">
           <thead>
           <tr>
-            <th></th>
-            <th>Title</th>
+            <th></th><th>Title</th>
             <th>Category</th>
             <th>Author</th>
             <th>Signature count</th>
