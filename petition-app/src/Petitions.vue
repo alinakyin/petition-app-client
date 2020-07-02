@@ -11,7 +11,7 @@
 
     <div v-if="loggedIn">
       <div style="float: right; margin-right: 34px; margin-top: 2px">
-        <router-link :to="{ name: 'user'}"><img :src=userImage @error="imageUrlAlt" style="margin: 8px" class="border border-primary img-thumbnail img-fluid" height="50" width="75"></router-link>
+        <router-link :to="{ name: 'user'}"><img :src=userImage @error="imageUrlAlt" style="margin: 8px" class="border img-thumbnail img-fluid" height="50" width="75"></router-link>
         <div id="logOut">
           <button type="button" style="margin: 5px" class="btn btn-outline-primary" data-toggle="modal" data-target="#logOutModal">
             Log out
@@ -208,7 +208,7 @@
           petitions: [],
           queryString: null,
           q: null,
-          category: null, // name selected by user,
+          category: null, // name selected by user
           sortBySelected: null,
           currentPage: 0,
           pageMoved: false,
